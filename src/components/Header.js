@@ -6,7 +6,8 @@ import {
  faLinkedin, 
  faMedium, 
  faStackOverflow,
- faTwitter, 
+ faTwitter,
+ faWhatsapp, 
 } from "@fortawesome/free-brands-svg-icons"; 
 import { Box, HStack } from "@chakra-ui/react"; 
  
@@ -22,7 +23,11 @@ const socials = [
  { 
    icon: faTwitter, 
    url: "https://twitter.com/home", 
- }, 
+ },
+ {
+  icon:faWhatsapp,
+  url: "https://api.whatsapp.com/send?phone=2349134135278"
+ } 
 ]; 
 
 /** 
