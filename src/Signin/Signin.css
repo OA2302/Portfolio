@@ -1,0 +1,14 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#contactme-section {
+    text-align: center;
+    background: rgb(150, 150, 150);
+    color: rgb(94, 45, 217);
+}
+.form {
+    background: rgb(150, 150, 150);
+}

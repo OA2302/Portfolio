@@ -18,7 +18,7 @@ const LandingSection = () => (
        <Avatar 
          src="https://scontent.flos1-2.fna.fbcdn.net/v/t39.30808-6/273896303_102974488993166_8664525187229821439_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGwtGM0K09_X3AdlSZg6zQzKioSZQvgyJ4qKhJlC-DInroFjV1Kj03URNXBUc1oC7aqfag6wzNT1muvOR3hCR0s&_nc_ohc=QcHNshuoYycAX8aystc&_nc_zt=23&_nc_ht=scontent.flos1-2.fna&oh=00_AfDF-WEVo11A9rhmPCygTuhu6hZTxtu6FbPFgqfxmyYZVQ&oe=6440AF6A" 
          size="2x1" 
-         name="Your Name" 
+         name="Adenekan Okiki" 
        /> 
        <Heading as="h4" size="ms" noOfLines={1}> 
          {greeting} 
