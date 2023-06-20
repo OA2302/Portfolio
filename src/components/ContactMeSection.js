@@ -33,7 +33,7 @@ const ContactMeSection = () => {
      comment: "", 
    }, 
    onSubmit: (values) => { 
-     submit('https://mail.google.com/mail/u/0/#inbox', values); 
+     submit('mailto:okikiademekan3@gmail.com', values); 
    }, 
    validationSchema: Yup.object({ 
      firstName: Yup.string().required("Required"), 
@@ -107,7 +107,7 @@ const ContactMeSection = () => {
                /> 
                <FormErrorMessage>{formik.errors.comment}</FormErrorMessage> 
              </FormControl> 
-             <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}> 
+             <Button type="submit" onSubmit={'mailto:okikiademekan3@gmail.com'} colorScheme="purple" width="full" isLoading={isLoading}> 
                Submit 
              </Button> 
            </VStack> 

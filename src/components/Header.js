@@ -115,9 +115,6 @@ const Header = () => {
              <a href="#contactme" onClick={handleClick("contactme")}> 
                Contact Me 
              </a> 
-             <a href="#signup" onClick={handleClick('signup')}>
-              Signup
-             </a>
            </HStack> 
          </nav> 
        </HStack> 
